@@ -4,6 +4,14 @@ var slides = document.querySelectorAll('.slide');
 
         //Javascript for image slider manual navigation
         var manualNav = function(manual){
+            slides.forEach((slide) => {
+                slide.classList.remove('active');
+
+                btns.forEach((btn) => {
+                    btn.classList.remove('active');
+                })
+            })
+
             slides[manual].classList.add('active');
             btns[manual].classList.add('active');
         }
