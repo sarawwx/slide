@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --verde-claro: #69a670;
+    --verde-escuro: #325436;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #8ffe9c;
+    background: var(--verde-claro);
 }
 
 .img-slider{
@@ -20,7 +26,7 @@ body{
     width: 800px;
     height: 500px;
     margin: 10px;
-    background: #8ffe9c;
+    background: var(--verde-claro);
 }
 
 .img-slider .slide{
@@ -31,7 +37,7 @@ body{
 }
 .img-slider .slide.active{
     clip-path: circle(150% at 0 50%);
-    transition: 0.2s;
+    transition: 0.4s;
     transition-property: clip-path;
 
 }
@@ -84,6 +90,6 @@ body{
 }
 
 .img-slider .navigation .btn.active{
-    background: #395d3d;
+    background: var(--verde-escuro);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
