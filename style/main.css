@@ -61,6 +61,11 @@ body{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
+    text-shadow: 
+               -1px -1px 0px var(--verde-escuro), 
+               -1px 1px 0px var(--verde-escuro),                    
+                1px -1px 0px var(--verde-escuro),                  
+                2px 3px 3px var(--verde-escuro);
 }
 
 .img-slider .slide .info p{
