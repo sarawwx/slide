@@ -70,7 +70,7 @@ body{
 
 .img-slider .slide .info p{
     color: var(--branco-gelo);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(20, 58, 34, 0.4);
     font-size: 16px;
     width: 60%;
     padding: 10px;
