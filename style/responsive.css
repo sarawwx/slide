@@ -63,15 +63,16 @@
     }
 
     .img-slider .slide .info{
-        padding: 5px 10px;
+        padding: 0 10px;
     }
     
     .img-slider .slide .info h2{
-        padding: 25px;
+        padding: 0;
+        font-size: 30px;
     }
     .img-slider .slide .info p{
-        width: 90%;
-        font-size: 11px;
+        width: 95%;
+        font-size: 0.6rem;
     }
 
     .img-slider .navigation{
